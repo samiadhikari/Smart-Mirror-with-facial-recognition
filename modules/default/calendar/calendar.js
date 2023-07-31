@@ -1,11 +1,4 @@
-/* global cloneObject */
 
-/* MagicMirror²
- * Module: Calendar
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
 Module.register("calendar", {
 	// Define module defaults
 	defaults: {
@@ -544,7 +537,7 @@ Module.register("calendar", {
 					let midnight = moment(event.startDate, "x").clone().startOf("day").add(1, "day").format("x");
 					let count = 1;
 					while (event.endDate > midnight) {
-						const thisEvent = JSON.parse(JSON.stringify(event)); // clone object
+						const thisEvent = JSON.parse(JSON.stringify(event));
 						thisEvent.today = thisEvent.startDate >= today && thisEvent.startDate < today + ONE_DAY;
 						thisEvent.tomorrow = !thisEvent.today && thisEvent.startDate >= today + ONE_DAY && thisEvent.startDate < today + 2 * ONE_DAY;
 						thisEvent.endDate = midnight;

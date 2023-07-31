@@ -1,17 +1,6 @@
 /* global WeatherProvider, WeatherObject, WeatherUtils */
 
-/* MagicMirror²
- * Module: Weather
- * Provider: weather.gov
- * https://weather-gov.github.io/api/general-faqs
- *
- * Original by Vince Peri
- * MIT Licensed.
- *
- * This class is a provider for weather.gov.
- * Note that this is only for US locations (lat and lon) and does not require an API key
- * Since it is free, there are some items missing - like sunrise, sunset
- */
+
 
 WeatherProvider.register("weathergov", {
 	// Set the name of the provider.

@@ -1,8 +1,4 @@
-/* MagicMirror² Test config default calendar
- *              with authentication old config
- * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
- * MIT Licensed.
- */
+
 let config = {
 	timeFormat: 12,
 

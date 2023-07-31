@@ -1,16 +1,6 @@
 /* global WeatherProvider, WeatherObject */
 
-/* MagicMirror²
- * Module: Weather
- * Provider: Dark Sky
- *
- * By Nicholas Hubbard https://github.com/nhubbard
- * MIT Licensed
- *
- * This class is a provider for Dark Sky.
- * Note that the Dark Sky API does not provide rainfall. Instead it provides
- * snowfall and precipitation probability
- */
+
 WeatherProvider.register("darksky", {
 	// Set the name of the provider.
 	// Not strictly required, but helps for debugging.

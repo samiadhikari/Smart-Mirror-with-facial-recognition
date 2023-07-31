@@ -1,15 +1,6 @@
 /* global WeatherProvider, WeatherObject */
 
-/* MagicMirror²
- * Module: Weather
- * Provider: SMHI
- *
- * By BuXXi https://github.com/buxxi
- * MIT Licensed
- *
- * This class is a provider for SMHI (Sweden only). Metric system is the only
- * supported unit.
- */
+
 WeatherProvider.register("smhi", {
 	providerName: "SMHI",
 
@@ -273,13 +264,13 @@ WeatherProvider.register("smhi", {
 	},
 
 	/**
-	 * Map the icon value from SMHI to an icon that MagicMirror² understands.
+	 * Map the icon value from SMHI to an icon that SmartMirror understands.
 	 * Uses different icons depending on if its daytime or nighttime.
 	 * SMHI's description of what the numeric value means is the comment after the case.
 	 *
 	 * @param {number} input The SMHI icon value
 	 * @param {boolean} isDayTime True if the icon should be for daytime, false for nighttime
-	 * @returns {string} The icon name for the MagicMirror
+	 * @returns {string} The icon name for the SmartMirror
 	 */
 	convertWeatherType(input, isDayTime) {
 		switch (input) {

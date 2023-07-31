@@ -1,10 +1,4 @@
-/* MagicMirror² Test calendar calendar
- *
- * This configuration is a wrong authentication
- *
- * By Rodrigo Ramírez Norambuena https://rodrigoramirez.com
- * MIT Licensed.
- */
+
 let config = {
 	timeFormat: 12,
 

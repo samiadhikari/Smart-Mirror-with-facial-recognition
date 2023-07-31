@@ -1,9 +1,4 @@
-/* MagicMirror²
- * Node Helper: Calendar
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
+
 const NodeHelper = require("node_helper");
 const CalendarFetcher = require("./calendarfetcher.js");
 const Log = require("logger");

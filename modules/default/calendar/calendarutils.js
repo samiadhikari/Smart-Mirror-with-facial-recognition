@@ -1,9 +1,4 @@
-/* MagicMirror²
- * Calendar Util Methods
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
+
 
 /**
  * @external Moment

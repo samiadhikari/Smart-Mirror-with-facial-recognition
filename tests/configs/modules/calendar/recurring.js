@@ -1,8 +1,4 @@
-/* MagicMirror² Test config custom calendar
- *
- * By Rejas
- * MIT Licensed.
- */
+
 let config = {
 	timeFormat: 12,
 

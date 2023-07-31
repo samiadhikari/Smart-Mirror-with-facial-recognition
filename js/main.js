@@ -1,11 +1,5 @@
 /* global Loader, defaults, Translator */
 
-/* MagicMirror²
- * Main System
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
 const MM = (function () {
 	let modules = [];
 

@@ -1,9 +1,4 @@
-/* MagicMirror²
- * Node Helper Superclass
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
+
 const Class = require("./class.js");
 const Log = require("logger");
 const express = require("express");
@@ -22,11 +17,7 @@ const NodeHelper = Class.extend({
 		Log.log(`Starting module helper: ${this.name}`);
 	},
 
-	/**
-	 * Called when the MagicMirror² server receives a `SIGINT`
-	 * Close any open connections, stop any sub-processes and
-	 * gracefully exit the module.
-	 */
+	
 	stop() {
 		Log.log(`Stopping module helper: ${this.name}`);
 	},

@@ -1,9 +1,4 @@
-/* MagicMirror²
- * Server
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
+
 const express = require("express");
 const path = require("path");
 const ipfilter = require("express-ipfilter").IpFilter;

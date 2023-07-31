@@ -1,9 +1,4 @@
-/* MagicMirror²
- * Weather Util Methods
- *
- * By Rejas
- * MIT Licensed.
- */
+
 const WeatherUtils = {
 	/**
 	 * Convert wind (from m/s) to beaufort scale

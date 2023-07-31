@@ -1,12 +1,5 @@
 /* global Class, cloneObject, Loader, MMSocket, nunjucks, Translator */
 
-/* MagicMirror²
- * Module Blueprint.
- * @typedef {Object} Module
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
 const Module = Class.extend({
 	/*********************************************************
 	 * All methods (and properties) below can be subclassed. *
@@ -140,13 +133,7 @@ const Module = Class.extend({
 		return {};
 	},
 
-	/**
-	 * Called by the MagicMirror² core when a notification arrives.
-	 *
-	 * @param {string} notification The identifier of the notification.
-	 * @param {*} payload The payload of the notification.
-	 * @param {Module} sender The module that sent the notification.
-	 */
+	
 	notificationReceived: function (notification, payload, sender) {
 		if (sender) {
 			// Log.log(this.name + " received a module notification: " + notification + " from sender: " + sender.name);
